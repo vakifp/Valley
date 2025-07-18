@@ -23,7 +23,7 @@ const posts = [
     title: "Celebrate Life Differently",
     excerpt:
       "Host your destination wedding, corporate retreat, or family celebration surrounded by serene landscapes, open-air theaters, and soulful surroundings.",
-    imageSrc: "assets/img/new-img/banner2.jpg",
+    imageSrc: "assets/img/new-img/b4.jpg",
     // author: "Tapovan Events",
     // date: "July 12, 2025",
     // readTime: "4 min",
