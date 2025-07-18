@@ -491,13 +491,14 @@
       // WhatsApp Number
       const whatsappNumber = "918891177407"; // international format without +
 
-      // Create WhatsApp message
-      const whatsappMessage = `*New Inquiry from Tapovan Happiness Valley*%0A
-*Name:* ${name}%0A
-*Email:* ${email}%0A
-*Phone:* ${phone}%0A
-*Interest:* ${subject}%0A
-*Message:* ${message}`;
+// Create WhatsApp message
+const whatsappMessage = `*New Inquiry from Tapovan Happiness Valley*%0A%0A` +
+`*Name:* ${name}%0A` +
+`*Email:* ${email}%0A` +
+`*Phone:* ${phone}%0A` +
+`*Interest:* ${subject}%0A` +
+`*Message:* ${message}`;
+
 
       // Redirect to WhatsApp
       const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
